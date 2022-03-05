@@ -1,0 +1,84 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 84px;
+    width: 100%;
+    .banner-black{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #000;
+        height: 100%;
+        width: 50%;
+        &__text{
+            display: none;
+        }
+        &__list{
+            display: none;
+            .li{
+                opacity: 0;
+                transform: translateY(100%);
+                transition: 1s all;
+                &_active{
+                    opacity: 1;
+                    transform: translateY(0);
+                    transition: 1s all;
+                }
+            }
+        }
+        &__logo{
+            height: 50px;
+            width: 50px;
+            background-color: #fff;
+            margin: 0 20px;
+            opacity: 0;
+            transform: translateX(-100%);
+            transition: 1s all;
+            &_active{
+                opacity: 1;
+                transform: translateX(0);
+                transition: 1s all;
+            }
+        }
+    }
+    .banner-green {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: teal;
+        height: 100%;
+        width: 50%;
+        &__text{
+            display: none;
+            
+        }
+        &__list{
+            display: none;
+            .li{
+                opacity: 0;
+                transform: translateY(100%);
+                transition: 1s all;
+                &_active{
+                    opacity: 1;
+                    transform: translateY(0);
+                    transition: 1s all;
+                }
+            }
+        }
+        &__logo{
+            height: 50px;
+            width: 50px;
+            background-color: #fff;
+            margin: 0 20px;
+            opacity: 0;
+            transform: translateX(100%);
+            transition: 1s all;
+            &_active{
+                opacity: 1;
+                transform: translateX(0);
+                transition: 1s all;
+            }
+        }
+    }
+}
