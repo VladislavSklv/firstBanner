@@ -4,23 +4,47 @@
     }
     16% {
         opacity: 1;
-        background-image: url('../img/Pattern_1.svg');
+        background-image: url('../img/Pattern_1.png');
+    }
+    32%{
+        opacity: 0;
     }
     33%{
         opacity: 0;
+        background-image: none;
+    }
+    34%{
+        opacity: 0;
+        background-image: url('../img/Pattern_2.png');
     }
     50% {
         opacity: 1;
-        background-image: url('../img/Pattern_2.svg');
+        background-image: url('../img/Pattern_2.png');
+    }
+    65%{
+        opacity: 0;
     }
     66%{
         opacity: 0;
+        background-image: none;
+    }
+    67%{
+        opacity: 0;
+        background-image: url('../img/Pattern_3.png');
     }
     83% {
         opacity: 1;
-        background-image: url('../img/Pattern_3.svg');
+        background-image: url('../img/Pattern_3.png');
+    }
+    98%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+        background-image: none;
     }
     100%{
         opacity: 0;
+        background-image: url('../img/Pattern_1.png');
     }
 }

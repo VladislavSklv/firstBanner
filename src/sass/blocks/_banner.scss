@@ -27,6 +27,7 @@
         animation: backgroundChanging 5s 2 1s;
         z-index: 2;
         overflow: hidden;
+        transition: 1s all;
     }
     .banner-black{
         display: flex;
@@ -195,12 +196,35 @@
 }
 @media(max-width: 1024px){
     .banner{
-        height: 65px;
+        height: 70px;
         &__background{
-            height: 65px;
+            height: 70px;
         }
         &__background0{
-            height: 65px;
+            height: 70px;
+        }
+        .banner-green{
+            padding-left: 10px;
+        }
+        .banner-black{
+            padding-right: 10px;
+        }
+        .banner-black__logo, .banner-green__logo{
+            width: 100px;
+            margin: 0 10px;
+        }
+        .banner-black__text, .banner-green__text{
+            font-size: 11px;;
+        }
+        .banner-green__list{
+            margin-left: 10px;
+        }
+        .banner-black__list, .banner-green__list{
+            display: flex;
+            width: 120px;
+            .li{  
+                font-size: 11px;
+            }
         }
     }
 }
