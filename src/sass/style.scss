@@ -1,9 +1,14 @@
+@import 'base/animatios';
+@import 'libs/fonts';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-transform: uppercase;
     color: #fff;
+    font-family: "OpenSans", sans-serif;
+    font-weight: 700;
 }
 
 @import 'blocks/banner';

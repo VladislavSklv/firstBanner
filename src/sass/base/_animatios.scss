@@ -1,0 +1,26 @@
+@keyframes backgroundChanging {
+    0% {
+        opacity: 0;
+    }
+    16% {
+        opacity: 1;
+        background-image: url('../img/Pattern_1.svg');
+    }
+    33%{
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        background-image: url('../img/Pattern_2.svg');
+    }
+    66%{
+        opacity: 0;
+    }
+    83% {
+        opacity: 1;
+        background-image: url('../img/Pattern_3.svg');
+    }
+    100%{
+        opacity: 0;
+    }
+}
