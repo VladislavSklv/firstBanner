@@ -237,16 +237,18 @@
         }
     }
 }
-@media(max-width: 410px){
+@media(max-width: 425px){
     .banner{
         height: 40px;
         &__background{
-            height: 40px;
+            display: none;
+            background: none;
             animation: none;
         }
         &__background0{
             height: 40px;
             background-image: none;
+            background: none;
         }
         .banner-green{
             padding-left: 10px;
